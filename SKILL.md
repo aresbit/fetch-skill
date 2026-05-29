@@ -1,9 +1,16 @@
+---
+name: fetch-skill
+description: >-
+  用于 URL 内容抓取、转换或归档的技能。自动识别普通网页、X/Twitter
+  单条推文、回复、用户时间线、X Article 和微信公众号文章，并路由到合适后端，输出干净的 Markdown、JSON
+  或纯文本；默认零依赖，按需使用 Camofox 或 wechat-article-exporter 增强。
+---
+
 # fetch-skill
 
 **Name:** `fetch-skill`
 
-**Description:** 统一 URL 内容抓取器。自动识别 URL 类型，路由到最佳后端，输出干净的 Markdown / JSON / 纯文本。
-零依赖核心（普通网页 + 单条推文仅用 Python stdlib），Camofox / wechat-article-exporter 为可选增强。
+**Description:** 用于 URL 内容抓取、转换或归档的技能。自动识别普通网页、X/Twitter 单条推文、回复、用户时间线、X Article 和微信公众号文章，并路由到合适后端，输出干净的 Markdown、JSON 或纯文本；默认零依赖，按需使用 Camofox 或 wechat-article-exporter 增强。
 
 ---
 
